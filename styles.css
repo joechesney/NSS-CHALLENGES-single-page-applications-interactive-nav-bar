@@ -1,0 +1,27 @@
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a {
+    text-decoration: none;
+    /* padding: 15px 30px; */
+    color: white;
+    font-size: 3em;
+    background-color: navy;
+    
+}
+
+nav ul li {
+    width: 24%;
+    list-style-type: none;
+}
+nav ul li a:hover {
+    background-color: tomato;
+    color: green;
+}
+
+nav ul li a:active {
+    padding: 0 5px;    
+}
